@@ -15,6 +15,7 @@
 		5145791C25B57F1D00B5F0CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5145791A25B57F1D00B5F0CC /* LaunchScreen.storyboard */; };
 		5145792725B57F1D00B5F0CC /* CodeLatheTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5145792625B57F1D00B5F0CC /* CodeLatheTestTests.swift */; };
 		5145793225B57F1D00B5F0CC /* CodeLatheTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5145793125B57F1D00B5F0CC /* CodeLatheTestUITests.swift */; };
+		5145794325B57F8800B5F0CC /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5145794225B57F8800B5F0CC /* AppCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5145792D25B57F1D00B5F0CC /* CodeLatheTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeLatheTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5145793125B57F1D00B5F0CC /* CodeLatheTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeLatheTestUITests.swift; sourceTree = "<group>"; };
 		5145793325B57F1D00B5F0CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5145794225B57F8800B5F0CC /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				5145791825B57F1D00B5F0CC /* Assets.xcassets */,
 				5145791A25B57F1D00B5F0CC /* LaunchScreen.storyboard */,
 				5145791D25B57F1D00B5F0CC /* Info.plist */,
+				5145794225B57F8800B5F0CC /* AppCoordinator.swift */,
 			);
 			path = CodeLatheTest;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5145794325B57F8800B5F0CC /* AppCoordinator.swift in Sources */,
 				5145791425B57F1C00B5F0CC /* ViewController.swift in Sources */,
 				5145791025B57F1C00B5F0CC /* AppDelegate.swift in Sources */,
 				5145791225B57F1C00B5F0CC /* SceneDelegate.swift in Sources */,
