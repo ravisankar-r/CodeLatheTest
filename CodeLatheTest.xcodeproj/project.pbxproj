@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		5145791025B57F1C00B5F0CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5145790F25B57F1C00B5F0CC /* AppDelegate.swift */; };
 		5145791225B57F1C00B5F0CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5145791125B57F1C00B5F0CC /* SceneDelegate.swift */; };
-		5145791425B57F1C00B5F0CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5145791325B57F1C00B5F0CC /* ViewController.swift */; };
 		5145791725B57F1C00B5F0CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5145791525B57F1C00B5F0CC /* Main.storyboard */; };
 		5145791925B57F1D00B5F0CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5145791825B57F1D00B5F0CC /* Assets.xcassets */; };
 		5145791C25B57F1D00B5F0CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5145791A25B57F1D00B5F0CC /* LaunchScreen.storyboard */; };
@@ -23,6 +22,7 @@
 		5145798525B584B700B5F0CC /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5145798425B584B700B5F0CC /* City.swift */; };
 		5145798D25B585B500B5F0CC /* SearchResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5145798C25B585B500B5F0CC /* SearchResultViewModel.swift */; };
 		5145799825B5860300B5F0CC /* CityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5145799725B5860300B5F0CC /* CityCell.swift */; };
+		514579A025B5867800B5F0CC /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5145799F25B5867800B5F0CC /* UITableViewExtension.swift */; };
 		52D059439287BB4B1EA99622 /* Pods_CodeLatheTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63963A1E44174F1D65216593 /* Pods_CodeLatheTest.framework */; };
 		C3FD50E76085F59B455BA10E /* Pods_CodeLatheTest_CodeLatheTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99BEDF56BA97EA66580949EB /* Pods_CodeLatheTest_CodeLatheTestUITests.framework */; };
 		C92BACB1C036312AFA74BC3D /* Pods_CodeLatheTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9ED7269F1A657094F108FC /* Pods_CodeLatheTestTests.framework */; };
@@ -53,7 +53,6 @@
 		5145790C25B57F1C00B5F0CC /* CodeLatheTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeLatheTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5145790F25B57F1C00B5F0CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5145791125B57F1C00B5F0CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5145791325B57F1C00B5F0CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5145791625B57F1C00B5F0CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5145791825B57F1D00B5F0CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5145791B25B57F1D00B5F0CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -72,6 +71,7 @@
 		5145798425B584B700B5F0CC /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		5145798C25B585B500B5F0CC /* SearchResultViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewModel.swift; sourceTree = "<group>"; };
 		5145799725B5860300B5F0CC /* CityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCell.swift; sourceTree = "<group>"; };
+		5145799F25B5867800B5F0CC /* UITableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
 		63963A1E44174F1D65216593 /* Pods_CodeLatheTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodeLatheTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FA0D4C757A089E698FE037F /* Pods-CodeLatheTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeLatheTest.debug.xcconfig"; path = "Target Support Files/Pods-CodeLatheTest/Pods-CodeLatheTest.debug.xcconfig"; sourceTree = "<group>"; };
 		9039BAE02C00CBD84C0B818B /* Pods-CodeLatheTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeLatheTestTests.debug.xcconfig"; path = "Target Support Files/Pods-CodeLatheTestTests/Pods-CodeLatheTestTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -142,12 +142,12 @@
 		5145790E25B57F1C00B5F0CC /* CodeLatheTest */ = {
 			isa = PBXGroup;
 			children = (
+				514579A425B5868E00B5F0CC /* Extensions */,
 				5145796925B583B300B5F0CC /* Network Helper */,
 				5145794E25B580C400B5F0CC /* ListView */,
 				5145794A25B580B100B5F0CC /* Coordinators */,
 				5145790F25B57F1C00B5F0CC /* AppDelegate.swift */,
 				5145791125B57F1C00B5F0CC /* SceneDelegate.swift */,
-				5145791325B57F1C00B5F0CC /* ViewController.swift */,
 				5145791525B57F1C00B5F0CC /* Main.storyboard */,
 				5145791825B57F1D00B5F0CC /* Assets.xcassets */,
 				5145791A25B57F1D00B5F0CC /* LaunchScreen.storyboard */,
@@ -233,6 +233,14 @@
 				5145799725B5860300B5F0CC /* CityCell.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		514579A425B5868E00B5F0CC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5145799F25B5867800B5F0CC /* UITableViewExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		CCC8AAACE9C3F2F7A3A95A31 /* Pods */ = {
@@ -489,10 +497,10 @@
 				5145798D25B585B500B5F0CC /* SearchResultViewModel.swift in Sources */,
 				5145797525B5844B00B5F0CC /* GetSearchResultsDAO.swift in Sources */,
 				5145795025B580F100B5F0CC /* SearchViewController.swift in Sources */,
+				514579A025B5867800B5F0CC /* UITableViewExtension.swift in Sources */,
 				5145799825B5860300B5F0CC /* CityCell.swift in Sources */,
 				5145798525B584B700B5F0CC /* City.swift in Sources */,
 				5145794325B57F8800B5F0CC /* AppCoordinator.swift in Sources */,
-				5145791425B57F1C00B5F0CC /* ViewController.swift in Sources */,
 				5145797025B583F200B5F0CC /* NetworkServiceProtocol.swift in Sources */,
 				5145791025B57F1C00B5F0CC /* AppDelegate.swift in Sources */,
 				5145796B25B583C700B5F0CC /* NetworkService.swift in Sources */,

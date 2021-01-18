@@ -18,6 +18,11 @@ class AppCoordinator {
     func start() {
         
         let vc = SearchViewController()
+        vc.coordinator = self
         navigationController.pushViewController(vc, animated: false)
+    }
+    
+    func profileAction() {
+        
     }
 }
