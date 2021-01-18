@@ -45,6 +45,10 @@
 		514579E525B5962C00B5F0CC /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 514579DC25B5962C00B5F0CC /* Inter-Medium.ttf */; };
 		514579EA25B59B7F00B5F0CC /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514579E925B59B7F00B5F0CC /* UIColorExtension.swift */; };
 		514579EF25B59C9500B5F0CC /* UIFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514579EE25B59C9500B5F0CC /* UIFontExtension.swift */; };
+		51457A0025B5A4FD00B5F0CC /* NetworkServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514579FF25B5A4FD00B5F0CC /* NetworkServiceTests.swift */; };
+		5182D05525B5AC5D00643C6E /* MockNetworkServiceClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5182D05425B5AC5D00643C6E /* MockNetworkServiceClass.swift */; };
+		5182D05A25B5ACCB00643C6E /* MockResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 5182D05925B5ACCB00643C6E /* MockResponse.json */; };
+		5182D05F25B5ADFF00643C6E /* GetSearchResultsDAOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5182D05E25B5ADFF00643C6E /* GetSearchResultsDAOTests.swift */; };
 		52D059439287BB4B1EA99622 /* Pods_CodeLatheTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63963A1E44174F1D65216593 /* Pods_CodeLatheTest.framework */; };
 		C3FD50E76085F59B455BA10E /* Pods_CodeLatheTest_CodeLatheTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99BEDF56BA97EA66580949EB /* Pods_CodeLatheTest_CodeLatheTestUITests.framework */; };
 		C92BACB1C036312AFA74BC3D /* Pods_CodeLatheTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9ED7269F1A657094F108FC /* Pods_CodeLatheTestTests.framework */; };
@@ -116,6 +120,10 @@
 		514579DC25B5962C00B5F0CC /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
 		514579E925B59B7F00B5F0CC /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		514579EE25B59C9500B5F0CC /* UIFontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontExtension.swift; sourceTree = "<group>"; };
+		514579FF25B5A4FD00B5F0CC /* NetworkServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceTests.swift; sourceTree = "<group>"; };
+		5182D05425B5AC5D00643C6E /* MockNetworkServiceClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkServiceClass.swift; sourceTree = "<group>"; };
+		5182D05925B5ACCB00643C6E /* MockResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MockResponse.json; sourceTree = "<group>"; };
+		5182D05E25B5ADFF00643C6E /* GetSearchResultsDAOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetSearchResultsDAOTests.swift; sourceTree = "<group>"; };
 		63963A1E44174F1D65216593 /* Pods_CodeLatheTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodeLatheTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FA0D4C757A089E698FE037F /* Pods-CodeLatheTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeLatheTest.debug.xcconfig"; path = "Target Support Files/Pods-CodeLatheTest/Pods-CodeLatheTest.debug.xcconfig"; sourceTree = "<group>"; };
 		9039BAE02C00CBD84C0B818B /* Pods-CodeLatheTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeLatheTestTests.debug.xcconfig"; path = "Target Support Files/Pods-CodeLatheTestTests/Pods-CodeLatheTestTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -207,6 +215,10 @@
 			children = (
 				5145792625B57F1D00B5F0CC /* CodeLatheTestTests.swift */,
 				5145792825B57F1D00B5F0CC /* Info.plist */,
+				514579FF25B5A4FD00B5F0CC /* NetworkServiceTests.swift */,
+				5182D05425B5AC5D00643C6E /* MockNetworkServiceClass.swift */,
+				5182D05925B5ACCB00643C6E /* MockResponse.json */,
+				5182D05E25B5ADFF00643C6E /* GetSearchResultsDAOTests.swift */,
 			);
 			path = CodeLatheTestTests;
 			sourceTree = "<group>";
@@ -368,6 +380,7 @@
 				5145791E25B57F1D00B5F0CC /* Sources */,
 				5145791F25B57F1D00B5F0CC /* Frameworks */,
 				5145792025B57F1D00B5F0CC /* Resources */,
+				5E5BBABB41C76A40C5C357F6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -469,6 +482,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5182D05A25B5ACCB00643C6E /* MockResponse.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,6 +511,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CodeLatheTest/Pods-CodeLatheTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E5BBABB41C76A40C5C357F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CodeLatheTestTests/Pods-CodeLatheTestTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CodeLatheTestTests/Pods-CodeLatheTestTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CodeLatheTestTests/Pods-CodeLatheTestTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6978B5F965ECB6CB09885C03 /* [CP] Check Pods Manifest.lock */ = {
@@ -616,6 +647,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5182D05F25B5ADFF00643C6E /* GetSearchResultsDAOTests.swift in Sources */,
+				51457A0025B5A4FD00B5F0CC /* NetworkServiceTests.swift in Sources */,
+				5182D05525B5AC5D00643C6E /* MockNetworkServiceClass.swift in Sources */,
 				5145792725B57F1D00B5F0CC /* CodeLatheTestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

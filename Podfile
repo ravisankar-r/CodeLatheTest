@@ -7,12 +7,15 @@ target 'CodeLatheTest' do
   pod 'RxSwift'
   pod 'RxCocoa'
   pod 'SwiftyJSON'
+  pod "TagListView"
   
   # Pods for CodeLatheTest
   
   target 'CodeLatheTestTests' do
     inherit! :search_paths
     # Pods for testing
+    pod 'OHHTTPStubs/Swift'
+    pod 'RxBlocking'
   end
   
   target 'CodeLatheTestUITests' do

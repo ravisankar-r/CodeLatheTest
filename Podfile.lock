@@ -1,4 +1,19 @@
 PODS:
+  - OHHTTPStubs/Core (9.1.0)
+  - OHHTTPStubs/Default (9.1.0):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (9.1.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (9.1.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (9.1.0)
+  - OHHTTPStubs/Swift (9.1.0):
+    - OHHTTPStubs/Default
+  - RxBlocking (5.1.1):
+    - RxSwift (~> 5)
   - RxCocoa (5.1.1):
     - RxRelay (~> 5)
     - RxSwift (~> 5)
@@ -6,25 +21,35 @@ PODS:
     - RxSwift (~> 5)
   - RxSwift (5.1.1)
   - SwiftyJSON (5.0.0)
+  - TagListView (1.4.1)
 
 DEPENDENCIES:
+  - OHHTTPStubs/Swift
+  - RxBlocking
   - RxCocoa
   - RxSwift
   - SwiftyJSON
+  - TagListView
 
 SPEC REPOS:
   trunk:
+    - OHHTTPStubs
+    - RxBlocking
     - RxCocoa
     - RxRelay
     - RxSwift
     - SwiftyJSON
+    - TagListView
 
 SPEC CHECKSUMS:
+  OHHTTPStubs: 90eac6d8f2c18317baeca36698523dc67c513831
+  RxBlocking: 5f700a78cad61ce253ebd37c9a39b5ccc76477b4
   RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
   RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
   RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  TagListView: a1c236d17960a0cf64156725a76ce6d73ebce2be
 
-PODFILE CHECKSUM: bcadb7d81f0d12cce461a583d5d4b0227a35cf33
+PODFILE CHECKSUM: 4778804346119c85b5c6b4b24a8102c2c5c83b01
 
 COCOAPODS: 1.10.0
