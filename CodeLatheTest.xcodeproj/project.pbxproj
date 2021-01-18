@@ -21,6 +21,8 @@
 		5145797025B583F200B5F0CC /* NetworkServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5145796F25B583F200B5F0CC /* NetworkServiceProtocol.swift */; };
 		5145797525B5844B00B5F0CC /* GetSearchResultsDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5145797425B5844B00B5F0CC /* GetSearchResultsDAO.swift */; };
 		5145798525B584B700B5F0CC /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5145798425B584B700B5F0CC /* City.swift */; };
+		5145798D25B585B500B5F0CC /* SearchResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5145798C25B585B500B5F0CC /* SearchResultViewModel.swift */; };
+		5145799825B5860300B5F0CC /* CityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5145799725B5860300B5F0CC /* CityCell.swift */; };
 		52D059439287BB4B1EA99622 /* Pods_CodeLatheTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63963A1E44174F1D65216593 /* Pods_CodeLatheTest.framework */; };
 		C3FD50E76085F59B455BA10E /* Pods_CodeLatheTest_CodeLatheTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99BEDF56BA97EA66580949EB /* Pods_CodeLatheTest_CodeLatheTestUITests.framework */; };
 		C92BACB1C036312AFA74BC3D /* Pods_CodeLatheTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9ED7269F1A657094F108FC /* Pods_CodeLatheTestTests.framework */; };
@@ -68,6 +70,8 @@
 		5145796F25B583F200B5F0CC /* NetworkServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceProtocol.swift; sourceTree = "<group>"; };
 		5145797425B5844B00B5F0CC /* GetSearchResultsDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetSearchResultsDAO.swift; sourceTree = "<group>"; };
 		5145798425B584B700B5F0CC /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		5145798C25B585B500B5F0CC /* SearchResultViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewModel.swift; sourceTree = "<group>"; };
+		5145799725B5860300B5F0CC /* CityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCell.swift; sourceTree = "<group>"; };
 		63963A1E44174F1D65216593 /* Pods_CodeLatheTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodeLatheTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FA0D4C757A089E698FE037F /* Pods-CodeLatheTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeLatheTest.debug.xcconfig"; path = "Target Support Files/Pods-CodeLatheTest/Pods-CodeLatheTest.debug.xcconfig"; sourceTree = "<group>"; };
 		9039BAE02C00CBD84C0B818B /* Pods-CodeLatheTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeLatheTestTests.debug.xcconfig"; path = "Target Support Files/Pods-CodeLatheTestTests/Pods-CodeLatheTestTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -181,9 +185,11 @@
 		5145794E25B580C400B5F0CC /* ListView */ = {
 			isa = PBXGroup;
 			children = (
+				5145799625B585EF00B5F0CC /* Views */,
+				5145799525B585D200B5F0CC /* DAO */,
+				5145799425B585C700B5F0CC /* ViewModel */,
 				5145798325B584AC00B5F0CC /* Model */,
 				5145794F25B580F100B5F0CC /* SearchViewController.swift */,
-				5145797425B5844B00B5F0CC /* GetSearchResultsDAO.swift */,
 			);
 			path = ListView;
 			sourceTree = "<group>";
@@ -203,6 +209,30 @@
 				5145798425B584B700B5F0CC /* City.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		5145799425B585C700B5F0CC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5145798C25B585B500B5F0CC /* SearchResultViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5145799525B585D200B5F0CC /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				5145797425B5844B00B5F0CC /* GetSearchResultsDAO.swift */,
+			);
+			path = DAO;
+			sourceTree = "<group>";
+		};
+		5145799625B585EF00B5F0CC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5145799725B5860300B5F0CC /* CityCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		CCC8AAACE9C3F2F7A3A95A31 /* Pods */ = {
@@ -456,8 +486,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5145798D25B585B500B5F0CC /* SearchResultViewModel.swift in Sources */,
 				5145797525B5844B00B5F0CC /* GetSearchResultsDAO.swift in Sources */,
 				5145795025B580F100B5F0CC /* SearchViewController.swift in Sources */,
+				5145799825B5860300B5F0CC /* CityCell.swift in Sources */,
 				5145798525B584B700B5F0CC /* City.swift in Sources */,
 				5145794325B57F8800B5F0CC /* AppCoordinator.swift in Sources */,
 				5145791425B57F1C00B5F0CC /* ViewController.swift in Sources */,
