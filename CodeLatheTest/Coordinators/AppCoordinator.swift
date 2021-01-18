@@ -17,5 +17,7 @@ class AppCoordinator {
 
     func start() {
         
+        let vc = SearchViewController()
+        navigationController.pushViewController(vc, animated: false)
     }
 }
