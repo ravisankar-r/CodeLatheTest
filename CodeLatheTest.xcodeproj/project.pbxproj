@@ -16,6 +16,10 @@
 		5145792725B57F1D00B5F0CC /* CodeLatheTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5145792625B57F1D00B5F0CC /* CodeLatheTestTests.swift */; };
 		5145793225B57F1D00B5F0CC /* CodeLatheTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5145793125B57F1D00B5F0CC /* CodeLatheTestUITests.swift */; };
 		5145794325B57F8800B5F0CC /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5145794225B57F8800B5F0CC /* AppCoordinator.swift */; };
+		5145795025B580F100B5F0CC /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5145794F25B580F100B5F0CC /* SearchViewController.swift */; };
+		52D059439287BB4B1EA99622 /* Pods_CodeLatheTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63963A1E44174F1D65216593 /* Pods_CodeLatheTest.framework */; };
+		C3FD50E76085F59B455BA10E /* Pods_CodeLatheTest_CodeLatheTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99BEDF56BA97EA66580949EB /* Pods_CodeLatheTest_CodeLatheTestUITests.framework */; };
+		C92BACB1C036312AFA74BC3D /* Pods_CodeLatheTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9ED7269F1A657094F108FC /* Pods_CodeLatheTestTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19CB4B85CF0CE310FD534990 /* Pods-CodeLatheTest-CodeLatheTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeLatheTest-CodeLatheTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-CodeLatheTest-CodeLatheTestUITests/Pods-CodeLatheTest-CodeLatheTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		25687E47134E5CA1B6B9A2B7 /* Pods-CodeLatheTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeLatheTest.release.xcconfig"; path = "Target Support Files/Pods-CodeLatheTest/Pods-CodeLatheTest.release.xcconfig"; sourceTree = "<group>"; };
+		2671D616855DB82CED91331C /* Pods-CodeLatheTest-CodeLatheTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeLatheTest-CodeLatheTestUITests.release.xcconfig"; path = "Target Support Files/Pods-CodeLatheTest-CodeLatheTestUITests/Pods-CodeLatheTest-CodeLatheTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		40398AE50E846F9A8FC1A34C /* Pods-CodeLatheTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeLatheTestTests.release.xcconfig"; path = "Target Support Files/Pods-CodeLatheTestTests/Pods-CodeLatheTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		5145790C25B57F1C00B5F0CC /* CodeLatheTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeLatheTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5145790F25B57F1C00B5F0CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5145791125B57F1C00B5F0CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +59,12 @@
 		5145793125B57F1D00B5F0CC /* CodeLatheTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeLatheTestUITests.swift; sourceTree = "<group>"; };
 		5145793325B57F1D00B5F0CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5145794225B57F8800B5F0CC /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		5145794F25B580F100B5F0CC /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		63963A1E44174F1D65216593 /* Pods_CodeLatheTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodeLatheTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FA0D4C757A089E698FE037F /* Pods-CodeLatheTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeLatheTest.debug.xcconfig"; path = "Target Support Files/Pods-CodeLatheTest/Pods-CodeLatheTest.debug.xcconfig"; sourceTree = "<group>"; };
+		9039BAE02C00CBD84C0B818B /* Pods-CodeLatheTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeLatheTestTests.debug.xcconfig"; path = "Target Support Files/Pods-CodeLatheTestTests/Pods-CodeLatheTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		99BEDF56BA97EA66580949EB /* Pods_CodeLatheTest_CodeLatheTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodeLatheTest_CodeLatheTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F9ED7269F1A657094F108FC /* Pods_CodeLatheTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodeLatheTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52D059439287BB4B1EA99622 /* Pods_CodeLatheTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C92BACB1C036312AFA74BC3D /* Pods_CodeLatheTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +88,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3FD50E76085F59B455BA10E /* Pods_CodeLatheTest_CodeLatheTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1ADD983103F4C72AFBF0DBBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63963A1E44174F1D65216593 /* Pods_CodeLatheTest.framework */,
+				99BEDF56BA97EA66580949EB /* Pods_CodeLatheTest_CodeLatheTestUITests.framework */,
+				9F9ED7269F1A657094F108FC /* Pods_CodeLatheTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5145790325B57F1C00B5F0CC = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +112,8 @@
 				5145792525B57F1D00B5F0CC /* CodeLatheTestTests */,
 				5145793025B57F1D00B5F0CC /* CodeLatheTestUITests */,
 				5145790D25B57F1C00B5F0CC /* Products */,
+				CCC8AAACE9C3F2F7A3A95A31 /* Pods */,
+				1ADD983103F4C72AFBF0DBBA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +130,8 @@
 		5145790E25B57F1C00B5F0CC /* CodeLatheTest */ = {
 			isa = PBXGroup;
 			children = (
+				5145794E25B580C400B5F0CC /* ListView */,
+				5145794A25B580B100B5F0CC /* Coordinators */,
 				5145790F25B57F1C00B5F0CC /* AppDelegate.swift */,
 				5145791125B57F1C00B5F0CC /* SceneDelegate.swift */,
 				5145791325B57F1C00B5F0CC /* ViewController.swift */,
@@ -108,7 +139,6 @@
 				5145791825B57F1D00B5F0CC /* Assets.xcassets */,
 				5145791A25B57F1D00B5F0CC /* LaunchScreen.storyboard */,
 				5145791D25B57F1D00B5F0CC /* Info.plist */,
-				5145794225B57F8800B5F0CC /* AppCoordinator.swift */,
 			);
 			path = CodeLatheTest;
 			sourceTree = "<group>";
@@ -131,6 +161,36 @@
 			path = CodeLatheTestUITests;
 			sourceTree = "<group>";
 		};
+		5145794A25B580B100B5F0CC /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				5145794225B57F8800B5F0CC /* AppCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		5145794E25B580C400B5F0CC /* ListView */ = {
+			isa = PBXGroup;
+			children = (
+				5145794F25B580F100B5F0CC /* SearchViewController.swift */,
+			);
+			path = ListView;
+			sourceTree = "<group>";
+		};
+		CCC8AAACE9C3F2F7A3A95A31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FA0D4C757A089E698FE037F /* Pods-CodeLatheTest.debug.xcconfig */,
+				25687E47134E5CA1B6B9A2B7 /* Pods-CodeLatheTest.release.xcconfig */,
+				19CB4B85CF0CE310FD534990 /* Pods-CodeLatheTest-CodeLatheTestUITests.debug.xcconfig */,
+				2671D616855DB82CED91331C /* Pods-CodeLatheTest-CodeLatheTestUITests.release.xcconfig */,
+				9039BAE02C00CBD84C0B818B /* Pods-CodeLatheTestTests.debug.xcconfig */,
+				40398AE50E846F9A8FC1A34C /* Pods-CodeLatheTestTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +198,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5145793625B57F1D00B5F0CC /* Build configuration list for PBXNativeTarget "CodeLatheTest" */;
 			buildPhases = (
+				7E360F6FE8D4DE9B729C8B55 /* [CP] Check Pods Manifest.lock */,
 				5145790825B57F1C00B5F0CC /* Sources */,
 				5145790925B57F1C00B5F0CC /* Frameworks */,
 				5145790A25B57F1C00B5F0CC /* Resources */,
+				2EB20A5ED7583D15A94C07C0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5145793925B57F1D00B5F0CC /* Build configuration list for PBXNativeTarget "CodeLatheTestTests" */;
 			buildPhases = (
+				6978B5F965ECB6CB09885C03 /* [CP] Check Pods Manifest.lock */,
 				5145791E25B57F1D00B5F0CC /* Sources */,
 				5145791F25B57F1D00B5F0CC /* Frameworks */,
 				5145792025B57F1D00B5F0CC /* Resources */,
@@ -173,9 +236,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5145793C25B57F1D00B5F0CC /* Build configuration list for PBXNativeTarget "CodeLatheTestUITests" */;
 			buildPhases = (
+				9B807D8CD02BC3E8DF39F8EA /* [CP] Check Pods Manifest.lock */,
 				5145792925B57F1D00B5F0CC /* Sources */,
 				5145792A25B57F1D00B5F0CC /* Frameworks */,
 				5145792B25B57F1D00B5F0CC /* Resources */,
+				B4FA8400312FFAEF41567322 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,11 +321,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2EB20A5ED7583D15A94C07C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CodeLatheTest/Pods-CodeLatheTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CodeLatheTest/Pods-CodeLatheTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CodeLatheTest/Pods-CodeLatheTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6978B5F965ECB6CB09885C03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CodeLatheTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E360F6FE8D4DE9B729C8B55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CodeLatheTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B807D8CD02BC3E8DF39F8EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CodeLatheTest-CodeLatheTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4FA8400312FFAEF41567322 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CodeLatheTest-CodeLatheTestUITests/Pods-CodeLatheTest-CodeLatheTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CodeLatheTest-CodeLatheTestUITests/Pods-CodeLatheTest-CodeLatheTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CodeLatheTest-CodeLatheTestUITests/Pods-CodeLatheTest-CodeLatheTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5145790825B57F1C00B5F0CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5145795025B580F100B5F0CC /* SearchViewController.swift in Sources */,
 				5145794325B57F8800B5F0CC /* AppCoordinator.swift in Sources */,
 				5145791425B57F1C00B5F0CC /* ViewController.swift in Sources */,
 				5145791025B57F1C00B5F0CC /* AppDelegate.swift in Sources */,
@@ -437,12 +606,14 @@
 		};
 		5145793725B57F1D00B5F0CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FA0D4C757A089E698FE037F /* Pods-CodeLatheTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K8SVRL6UKU;
 				INFOPLIST_FILE = CodeLatheTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,18 +621,20 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ravi.CodeLatheTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		5145793825B57F1D00B5F0CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25687E47134E5CA1B6B9A2B7 /* Pods-CodeLatheTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K8SVRL6UKU;
 				INFOPLIST_FILE = CodeLatheTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -469,12 +642,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ravi.CodeLatheTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		5145793A25B57F1D00B5F0CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9039BAE02C00CBD84C0B818B /* Pods-CodeLatheTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,6 +671,7 @@
 		};
 		5145793B25B57F1D00B5F0CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40398AE50E846F9A8FC1A34C /* Pods-CodeLatheTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +694,7 @@
 		};
 		5145793D25B57F1D00B5F0CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19CB4B85CF0CE310FD534990 /* Pods-CodeLatheTest-CodeLatheTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +715,7 @@
 		};
 		5145793E25B57F1D00B5F0CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2671D616855DB82CED91331C /* Pods-CodeLatheTest-CodeLatheTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
