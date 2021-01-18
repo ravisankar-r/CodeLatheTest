@@ -23,6 +23,28 @@
 		5145798D25B585B500B5F0CC /* SearchResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5145798C25B585B500B5F0CC /* SearchResultViewModel.swift */; };
 		5145799825B5860300B5F0CC /* CityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5145799725B5860300B5F0CC /* CityCell.swift */; };
 		514579A025B5867800B5F0CC /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5145799F25B5867800B5F0CC /* UITableViewExtension.swift */; };
+		514579AA25B588D200B5F0CC /* TableCellConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514579A925B588D200B5F0CC /* TableCellConfigurator.swift */; };
+		514579B725B5891200B5F0CC /* CVProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514579AE25B5891200B5F0CC /* CVProfileCell.swift */; };
+		514579B825B5891200B5F0CC /* CVSkillsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 514579AF25B5891200B5F0CC /* CVSkillsCell.xib */; };
+		514579B925B5891200B5F0CC /* CVGalleryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 514579B025B5891200B5F0CC /* CVGalleryCell.xib */; };
+		514579BA25B5891200B5F0CC /* CVGalleryCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514579B125B5891200B5F0CC /* CVGalleryCollectionCell.swift */; };
+		514579BB25B5891200B5F0CC /* CVSkillsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514579B225B5891200B5F0CC /* CVSkillsCell.swift */; };
+		514579BC25B5891200B5F0CC /* CVGalleryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514579B325B5891200B5F0CC /* CVGalleryCell.swift */; };
+		514579BD25B5891200B5F0CC /* CVProfileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 514579B425B5891200B5F0CC /* CVProfileCell.xib */; };
+		514579BE25B5891200B5F0CC /* CVGalleryCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 514579B525B5891200B5F0CC /* CVGalleryCollectionCell.xib */; };
+		514579BF25B5891200B5F0CC /* CVSummaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514579B625B5891200B5F0CC /* CVSummaryCell.swift */; };
+		514579CF25B5951E00B5F0CC /* VirtualVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514579CE25B5951E00B5F0CC /* VirtualVCViewController.swift */; };
+		514579DD25B5962C00B5F0CC /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 514579D425B5962B00B5F0CC /* Inter-ExtraLight.ttf */; };
+		514579DE25B5962C00B5F0CC /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 514579D525B5962B00B5F0CC /* Inter-SemiBold.ttf */; };
+		514579DF25B5962C00B5F0CC /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 514579D625B5962B00B5F0CC /* Inter-Black.ttf */; };
+		514579E025B5962C00B5F0CC /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 514579D725B5962C00B5F0CC /* Inter-Regular.ttf */; };
+		514579E125B5962C00B5F0CC /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 514579D825B5962C00B5F0CC /* Inter-Bold.ttf */; };
+		514579E225B5962C00B5F0CC /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 514579D925B5962C00B5F0CC /* Inter-Thin.ttf */; };
+		514579E325B5962C00B5F0CC /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 514579DA25B5962C00B5F0CC /* Inter-Light.ttf */; };
+		514579E425B5962C00B5F0CC /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 514579DB25B5962C00B5F0CC /* Inter-ExtraBold.ttf */; };
+		514579E525B5962C00B5F0CC /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 514579DC25B5962C00B5F0CC /* Inter-Medium.ttf */; };
+		514579EA25B59B7F00B5F0CC /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514579E925B59B7F00B5F0CC /* UIColorExtension.swift */; };
+		514579EF25B59C9500B5F0CC /* UIFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514579EE25B59C9500B5F0CC /* UIFontExtension.swift */; };
 		52D059439287BB4B1EA99622 /* Pods_CodeLatheTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63963A1E44174F1D65216593 /* Pods_CodeLatheTest.framework */; };
 		C3FD50E76085F59B455BA10E /* Pods_CodeLatheTest_CodeLatheTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99BEDF56BA97EA66580949EB /* Pods_CodeLatheTest_CodeLatheTestUITests.framework */; };
 		C92BACB1C036312AFA74BC3D /* Pods_CodeLatheTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9ED7269F1A657094F108FC /* Pods_CodeLatheTestTests.framework */; };
@@ -72,6 +94,28 @@
 		5145798C25B585B500B5F0CC /* SearchResultViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewModel.swift; sourceTree = "<group>"; };
 		5145799725B5860300B5F0CC /* CityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCell.swift; sourceTree = "<group>"; };
 		5145799F25B5867800B5F0CC /* UITableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
+		514579A925B588D200B5F0CC /* TableCellConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCellConfigurator.swift; sourceTree = "<group>"; };
+		514579AE25B5891200B5F0CC /* CVProfileCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVProfileCell.swift; sourceTree = "<group>"; };
+		514579AF25B5891200B5F0CC /* CVSkillsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CVSkillsCell.xib; sourceTree = "<group>"; };
+		514579B025B5891200B5F0CC /* CVGalleryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CVGalleryCell.xib; sourceTree = "<group>"; };
+		514579B125B5891200B5F0CC /* CVGalleryCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVGalleryCollectionCell.swift; sourceTree = "<group>"; };
+		514579B225B5891200B5F0CC /* CVSkillsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVSkillsCell.swift; sourceTree = "<group>"; };
+		514579B325B5891200B5F0CC /* CVGalleryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVGalleryCell.swift; sourceTree = "<group>"; };
+		514579B425B5891200B5F0CC /* CVProfileCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CVProfileCell.xib; sourceTree = "<group>"; };
+		514579B525B5891200B5F0CC /* CVGalleryCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CVGalleryCollectionCell.xib; sourceTree = "<group>"; };
+		514579B625B5891200B5F0CC /* CVSummaryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVSummaryCell.swift; sourceTree = "<group>"; };
+		514579CE25B5951E00B5F0CC /* VirtualVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualVCViewController.swift; sourceTree = "<group>"; };
+		514579D425B5962B00B5F0CC /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraLight.ttf"; sourceTree = "<group>"; };
+		514579D525B5962B00B5F0CC /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		514579D625B5962B00B5F0CC /* Inter-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Black.ttf"; sourceTree = "<group>"; };
+		514579D725B5962C00B5F0CC /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		514579D825B5962C00B5F0CC /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		514579D925B5962C00B5F0CC /* Inter-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Thin.ttf"; sourceTree = "<group>"; };
+		514579DA25B5962C00B5F0CC /* Inter-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Light.ttf"; sourceTree = "<group>"; };
+		514579DB25B5962C00B5F0CC /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
+		514579DC25B5962C00B5F0CC /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		514579E925B59B7F00B5F0CC /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		514579EE25B59C9500B5F0CC /* UIFontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontExtension.swift; sourceTree = "<group>"; };
 		63963A1E44174F1D65216593 /* Pods_CodeLatheTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodeLatheTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FA0D4C757A089E698FE037F /* Pods-CodeLatheTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeLatheTest.debug.xcconfig"; path = "Target Support Files/Pods-CodeLatheTest/Pods-CodeLatheTest.debug.xcconfig"; sourceTree = "<group>"; };
 		9039BAE02C00CBD84C0B818B /* Pods-CodeLatheTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeLatheTestTests.debug.xcconfig"; path = "Target Support Files/Pods-CodeLatheTestTests/Pods-CodeLatheTestTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -142,9 +186,11 @@
 		5145790E25B57F1C00B5F0CC /* CodeLatheTest */ = {
 			isa = PBXGroup;
 			children = (
+				514579A825B588A700B5F0CC /* VirtualCV */,
 				514579A425B5868E00B5F0CC /* Extensions */,
 				5145796925B583B300B5F0CC /* Network Helper */,
 				5145794E25B580C400B5F0CC /* ListView */,
+				514579D325B5960700B5F0CC /* Resources */,
 				5145794A25B580B100B5F0CC /* Coordinators */,
 				5145790F25B57F1C00B5F0CC /* AppDelegate.swift */,
 				5145791125B57F1C00B5F0CC /* SceneDelegate.swift */,
@@ -239,8 +285,44 @@
 			isa = PBXGroup;
 			children = (
 				5145799F25B5867800B5F0CC /* UITableViewExtension.swift */,
+				514579E925B59B7F00B5F0CC /* UIColorExtension.swift */,
+				514579EE25B59C9500B5F0CC /* UIFontExtension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		514579A825B588A700B5F0CC /* VirtualCV */ = {
+			isa = PBXGroup;
+			children = (
+				514579B325B5891200B5F0CC /* CVGalleryCell.swift */,
+				514579B025B5891200B5F0CC /* CVGalleryCell.xib */,
+				514579B125B5891200B5F0CC /* CVGalleryCollectionCell.swift */,
+				514579B525B5891200B5F0CC /* CVGalleryCollectionCell.xib */,
+				514579AE25B5891200B5F0CC /* CVProfileCell.swift */,
+				514579B425B5891200B5F0CC /* CVProfileCell.xib */,
+				514579B225B5891200B5F0CC /* CVSkillsCell.swift */,
+				514579AF25B5891200B5F0CC /* CVSkillsCell.xib */,
+				514579B625B5891200B5F0CC /* CVSummaryCell.swift */,
+				514579A925B588D200B5F0CC /* TableCellConfigurator.swift */,
+				514579CE25B5951E00B5F0CC /* VirtualVCViewController.swift */,
+			);
+			path = VirtualCV;
+			sourceTree = "<group>";
+		};
+		514579D325B5960700B5F0CC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				514579D625B5962B00B5F0CC /* Inter-Black.ttf */,
+				514579D825B5962C00B5F0CC /* Inter-Bold.ttf */,
+				514579DB25B5962C00B5F0CC /* Inter-ExtraBold.ttf */,
+				514579D425B5962B00B5F0CC /* Inter-ExtraLight.ttf */,
+				514579DA25B5962C00B5F0CC /* Inter-Light.ttf */,
+				514579DC25B5962C00B5F0CC /* Inter-Medium.ttf */,
+				514579D725B5962C00B5F0CC /* Inter-Regular.ttf */,
+				514579D525B5962B00B5F0CC /* Inter-SemiBold.ttf */,
+				514579D925B5962C00B5F0CC /* Inter-Thin.ttf */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		CCC8AAACE9C3F2F7A3A95A31 /* Pods */ = {
@@ -364,9 +446,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				514579B825B5891200B5F0CC /* CVSkillsCell.xib in Resources */,
 				5145791C25B57F1D00B5F0CC /* LaunchScreen.storyboard in Resources */,
 				5145791925B57F1D00B5F0CC /* Assets.xcassets in Resources */,
+				514579DE25B5962C00B5F0CC /* Inter-SemiBold.ttf in Resources */,
+				514579DD25B5962C00B5F0CC /* Inter-ExtraLight.ttf in Resources */,
+				514579E425B5962C00B5F0CC /* Inter-ExtraBold.ttf in Resources */,
+				514579B925B5891200B5F0CC /* CVGalleryCell.xib in Resources */,
+				514579E325B5962C00B5F0CC /* Inter-Light.ttf in Resources */,
+				514579E125B5962C00B5F0CC /* Inter-Bold.ttf in Resources */,
+				514579BD25B5891200B5F0CC /* CVProfileCell.xib in Resources */,
+				514579DF25B5962C00B5F0CC /* Inter-Black.ttf in Resources */,
+				514579E025B5962C00B5F0CC /* Inter-Regular.ttf in Resources */,
+				514579E525B5962C00B5F0CC /* Inter-Medium.ttf in Resources */,
 				5145791725B57F1C00B5F0CC /* Main.storyboard in Resources */,
+				514579BE25B5891200B5F0CC /* CVGalleryCollectionCell.xib in Resources */,
+				514579E225B5962C00B5F0CC /* Inter-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,16 +590,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				5145798D25B585B500B5F0CC /* SearchResultViewModel.swift in Sources */,
+				514579B725B5891200B5F0CC /* CVProfileCell.swift in Sources */,
+				514579AA25B588D200B5F0CC /* TableCellConfigurator.swift in Sources */,
 				5145797525B5844B00B5F0CC /* GetSearchResultsDAO.swift in Sources */,
+				514579EA25B59B7F00B5F0CC /* UIColorExtension.swift in Sources */,
 				5145795025B580F100B5F0CC /* SearchViewController.swift in Sources */,
+				514579EF25B59C9500B5F0CC /* UIFontExtension.swift in Sources */,
+				514579BF25B5891200B5F0CC /* CVSummaryCell.swift in Sources */,
 				514579A025B5867800B5F0CC /* UITableViewExtension.swift in Sources */,
 				5145799825B5860300B5F0CC /* CityCell.swift in Sources */,
+				514579BC25B5891200B5F0CC /* CVGalleryCell.swift in Sources */,
 				5145798525B584B700B5F0CC /* City.swift in Sources */,
 				5145794325B57F8800B5F0CC /* AppCoordinator.swift in Sources */,
 				5145797025B583F200B5F0CC /* NetworkServiceProtocol.swift in Sources */,
 				5145791025B57F1C00B5F0CC /* AppDelegate.swift in Sources */,
 				5145796B25B583C700B5F0CC /* NetworkService.swift in Sources */,
 				5145791225B57F1C00B5F0CC /* SceneDelegate.swift in Sources */,
+				514579CF25B5951E00B5F0CC /* VirtualVCViewController.swift in Sources */,
+				514579BA25B5891200B5F0CC /* CVGalleryCollectionCell.swift in Sources */,
+				514579BB25B5891200B5F0CC /* CVSkillsCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

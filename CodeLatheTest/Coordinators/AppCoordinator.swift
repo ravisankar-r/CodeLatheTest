@@ -23,6 +23,7 @@ class AppCoordinator {
     }
     
     func profileAction() {
-        
+        let vc = VirtualCVViewController()
+        navigationController.pushViewController(vc, animated: true)
     }
 }

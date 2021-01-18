@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CVSkillsCell" rowHeight="123" id="DlT-FI-qcN" customClass="CVSkillsCell" customModule="CodeLatheTest" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="418" height="123"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="DlT-FI-qcN" id="a1J-tr-XO6">
+                <rect key="frame" x="0.0" y="0.0" width="418" height="123"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kg1-du-20X">
+                        <rect key="frame" x="12" y="8" width="394" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZJa-SU-dE4" customClass="TagListView" customModule="TagListView">
+                        <rect key="frame" x="12" y="33" width="394" height="82"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="paddingY">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="paddingX">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="marginY">
+                                <real key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="marginX">
+                                <real key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="kg1-du-20X" secondAttribute="trailing" constant="12" id="25z-1g-4cn"/>
+                    <constraint firstAttribute="trailing" secondItem="ZJa-SU-dE4" secondAttribute="trailing" constant="12" id="KYy-gi-tv1"/>
+                    <constraint firstItem="kg1-du-20X" firstAttribute="leading" secondItem="a1J-tr-XO6" secondAttribute="leading" constant="12" id="Ldo-ok-6Pf"/>
+                    <constraint firstItem="ZJa-SU-dE4" firstAttribute="leading" secondItem="a1J-tr-XO6" secondAttribute="leading" constant="12" id="UqT-Lf-SK2"/>
+                    <constraint firstItem="kg1-du-20X" firstAttribute="top" secondItem="a1J-tr-XO6" secondAttribute="top" constant="8" id="cyH-B0-bwi"/>
+                    <constraint firstAttribute="bottom" secondItem="ZJa-SU-dE4" secondAttribute="bottom" constant="8" id="hZO-f6-EqW"/>
+                    <constraint firstItem="ZJa-SU-dE4" firstAttribute="top" secondItem="kg1-du-20X" secondAttribute="bottom" constant="4" id="nls-cM-xUP"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="tagListView" destination="ZJa-SU-dE4" id="taz-sh-hrI"/>
+                <outlet property="titleLabel" destination="kg1-du-20X" id="nS8-X3-XMa"/>
+            </connections>
+            <point key="canvasLocation" x="37.681159420289859" y="134.26339285714286"/>
+        </tableViewCell>
+    </objects>
+    <designables>
+        <designable name="ZJa-SU-dE4">
+            <size key="intrinsicContentSize" width="394" height="22"/>
+        </designable>
+    </designables>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

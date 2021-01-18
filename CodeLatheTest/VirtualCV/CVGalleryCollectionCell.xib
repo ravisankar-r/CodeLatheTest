@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CVGalleryCollectionCell" id="Be7-2U-N1C" customClass="CVGalleryCollectionCell" customModule="CodeLatheTest" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="210" height="121"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="YAb-jJ-VlG">
+                <rect key="frame" x="0.0" y="0.0" width="210" height="121"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YgP-Tn-JTW">
+                        <rect key="frame" x="10" y="10" width="190" height="101"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="THd-Vu-gBV">
+                                <rect key="frame" x="73.5" y="26" width="43" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="LCR-3G-xxG"/>
+                                    <constraint firstAttribute="width" constant="43" id="ouo-DU-oad"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="THd-Vu-gBV" firstAttribute="centerY" secondItem="YgP-Tn-JTW" secondAttribute="centerY" id="Msz-Lo-XNJ"/>
+                            <constraint firstItem="THd-Vu-gBV" firstAttribute="centerX" secondItem="YgP-Tn-JTW" secondAttribute="centerX" id="qp5-3Z-pxx"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="YgP-Tn-JTW" firstAttribute="leading" secondItem="YAb-jJ-VlG" secondAttribute="leading" constant="10" id="Eco-7q-f9h"/>
+                    <constraint firstItem="YgP-Tn-JTW" firstAttribute="top" secondItem="YAb-jJ-VlG" secondAttribute="top" constant="10" id="bNl-MJ-d5o"/>
+                    <constraint firstAttribute="bottom" secondItem="YgP-Tn-JTW" secondAttribute="bottom" constant="10" id="qyd-1a-I2J"/>
+                    <constraint firstAttribute="trailing" secondItem="YgP-Tn-JTW" secondAttribute="trailing" constant="10" id="yQO-ZT-uis"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="210" height="121"/>
+            <connections>
+                <outlet property="containerView" destination="YgP-Tn-JTW" id="HnF-qQ-6oc"/>
+                <outlet property="imageView" destination="THd-Vu-gBV" id="i5E-qa-uyT"/>
+            </connections>
+            <point key="canvasLocation" x="150.72463768115944" y="132.25446428571428"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
